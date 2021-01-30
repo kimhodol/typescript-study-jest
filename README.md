@@ -2,8 +2,8 @@
 
 ## 👩‍💻 구현내용
 
-- 구현내용 1
-- 구현내용 2
+- `src/calculator.ts`에 사칙연산 기능 작성
+- `src/cacculator.spec.ts`에 사칙연산 테스트 작성
 
 ## 👨‍🏫 요구사항
 
