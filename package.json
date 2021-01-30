@@ -1,7 +1,7 @@
 {
-  "name": "getting-started",
+  "name": "typescript-testing",
   "version": "0.0.1",
-  "description": "template for typescript study",
+  "description": "typescript testing basics",
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "test": "jest"
@@ -33,7 +33,8 @@
     },
     "testRegex": "\\.spec\\.ts$",
     "moduleFileExtensions": [
-      "ts", "js"
+      "ts",
+      "js"
     ],
     "globals": {
       "ts-jest": {
