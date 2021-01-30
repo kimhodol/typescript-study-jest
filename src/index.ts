@@ -1,7 +1,6 @@
-import Prompt from 'prompt-sync';
+import { calculate } from './calculator';
 
-const prompt = Prompt();
-
-console.log('이름을 입력해주세요.');
-const name = prompt('> ');
-console.log(`안녕하세요, ${name}! 만나서 반가워요!`);
+console.log(calculate(1, 2, '+')); // 3이 나와야 한다.
+console.log(calculate(1, 2, '-')); // -1이 나와야 한다.
+console.log(calculate(1, 2, '*')); // 2가 나와야 한다.
+console.log(calculate(1, 2, '/')); // 0.5가 나와야 한다.
